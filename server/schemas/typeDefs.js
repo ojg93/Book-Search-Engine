@@ -1,4 +1,4 @@
-import { gql } from '@apollo/client';
+const { gql } = require('apollo-server-express');
 
 // create our typeDefs
 const typeDefs = gql`
